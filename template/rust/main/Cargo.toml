@@ -1,12 +1,8 @@
 [package]
-name = "rust-youtube-serverless"
+name = "rust-youtube-serverless-main"
 version = "0.1.0"
 authors = ["Salvador Guzman <guzmansalv@gmail.com>"]
 edition = "2018"
-
-[[bin]]
-name = "rust-youtube"
-path = "src/main.rs"
 
 [dependencies]
 reqwest = "0.9.17"
