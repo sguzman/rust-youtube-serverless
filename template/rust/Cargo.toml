@@ -1,0 +1,12 @@
+[package]
+name = "rust-youtube-serverless"
+version = "0.1.0"
+authors = ["Salvador Guzman <guzmansalv@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "rust-youtube"
+path = "main/src/main.rs"
+
+[dependencies]
+rust-youtube-serverless-main = { path = "./main" }
