@@ -1,7 +1,11 @@
 [package]
-name = "handler"
+name = "rust-youtube-serverless"
 version = "0.1.0"
 authors = ["Salvador Guzman <guzmansalv@gmail.com>"]
 edition = "2018"
+
+[[bin]]
+name = "rust-youtube"
+path = "src/main.rs"
 
 [dependencies]

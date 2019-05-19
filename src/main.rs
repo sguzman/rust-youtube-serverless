@@ -1,6 +1,8 @@
 use std::io::{self, Read};
 
-extern crate handler;
+pub fn handle(req : String) -> String {
+    req
+}
 
 fn main() -> io::Result<()> {
     let mut buffer = String::new();
